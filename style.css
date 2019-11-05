@@ -8,3 +8,18 @@
   color: aqua !important;
   border-bottom: 3px solid aqua;
 }
+
+/** Footer **/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  
+}
