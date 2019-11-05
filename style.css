@@ -1,0 +1,10 @@
+/** Navbar styling **/
+
+.nav-item .nav-link {
+  color: white !important;
+}
+
+.nav-item:hover .nav-link {
+  color: aqua !important;
+  border-bottom: 3px solid aqua;
+}
