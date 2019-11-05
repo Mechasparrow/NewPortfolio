@@ -9,6 +9,12 @@
   border-bottom: 3px solid aqua;
 }
 
+/** General content **/
+.content {
+  margin-top: 16px;
+}
+
+
 /** Footer **/
 .footer {
   position: fixed;
@@ -21,5 +27,5 @@
 }
 
 .footer-content {
-  
+
 }
