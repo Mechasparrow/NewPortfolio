@@ -37,3 +37,44 @@
   margin-top: 16px;
   font-size: 1.25em;
 }
+
+/** Borders **/
+.border {
+  width: 100%;
+  height: 10px;
+  background-color: #343A40;
+}
+
+/** About section **/
+.about .content-container {
+  border: 5px solid #33CCFF;
+  margin-bottom: 16px;
+  text-align: center;
+
+  /** Padding **/
+  padding: 16px;
+}
+
+.content-container p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.75em;
+}
+
+.sparrow-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sparrow-row {
+  margin-bottom: 16px;
+}
+
+/** Mechasparrow **/
+.sparrow {
+  max-width: 50%;
+  max-height: 400px;
+}
