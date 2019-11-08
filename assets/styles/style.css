@@ -1,7 +1,7 @@
 /** Navbar styling **/
 
 .nav-item .nav-link {
-  color: white !important;
+  color: black !important;
 }
 
 .nav-item:hover .nav-link {
