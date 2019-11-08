@@ -1,12 +1,18 @@
 /** Navbar styling **/
+* {
+  font-family: monospace;
+}
+
+.nav-item {
+  font-size: 1.5em;
+}
 
 .nav-item .nav-link {
   color: black !important;
 }
 
 .nav-item:hover .nav-link {
-  color: aqua !important;
-  border-bottom: 3px solid aqua;
+  color: #33CCFF !important;
 }
 
 /** General content **/
@@ -23,9 +29,11 @@
   width: 100%;
   background-color: #343a40;
   color: white;
-  text-align: center;
 }
 
 .footer-content {
-
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 16px;
+  font-size: 1.25em;
 }
