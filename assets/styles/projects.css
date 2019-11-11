@@ -1,0 +1,39 @@
+/** Projects section **/
+.projects {
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.projects .content-container .title {
+  border: 5px solid #6666CC;
+  text-align: center;
+  padding: 16px;
+
+  /** Width fix **/
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/** Project Card **/
+.project-cards {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.project-card {
+  border: 5px solid grey;
+  padding: 16px;
+  overflow: auto;
+}
+
+.project-card .dummy-image {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+}
+
+.project-card .card-prompt {
+  margin-top: 16px;
+  font-size: 1.25em;
+  float:right;
+}

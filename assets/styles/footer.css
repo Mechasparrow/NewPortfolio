@@ -1,0 +1,19 @@
+/** Footer **/
+.footer {
+  min-height: 100px;
+  background-color: black;
+}
+
+.footer-content {
+  color:white;
+  text-align:center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 64px;
+
+  font-size: 1.25em;
+}
+
+.footer-content p{
+    margin: 0px !important;
+}

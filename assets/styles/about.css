@@ -1,0 +1,17 @@
+/** About section **/
+.about .content-container {
+  border: 5px solid #33CCFF;
+  text-align: center;
+
+  /** Padding **/
+  padding: 16px;
+
+  /** Margin **/
+  margin-bottom: 64px;
+}
+
+.about .content-container p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.75em;
+}

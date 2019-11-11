@@ -1,0 +1,25 @@
+/** Social section **/
+.social {
+  margin-bottom: 64px;
+}
+
+.social-row {
+  padding: 0px !important;
+}
+
+.social .title {
+  border: 5px solid #33CCFF;
+  text-align: center;
+  padding: 16px;
+}
+
+.social-card {
+  border: 5px solid grey;
+}
+
+.social-title {
+  text-align: center;
+
+  margin: 0px !important;
+  padding: 16px;
+}
