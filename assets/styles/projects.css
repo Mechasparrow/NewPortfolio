@@ -23,6 +23,7 @@
 .project-card {
   border: 5px solid grey;
   padding: 16px;
+  padding-bottom: 8px;
   overflow: auto;
 }
 
@@ -34,6 +35,6 @@
 
 .project-card .card-prompt {
   margin-top: 16px;
-  font-size: 1.25em;
+  font-size: 1.75em;
   float:right;
 }

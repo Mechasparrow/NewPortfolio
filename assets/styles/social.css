@@ -19,7 +19,49 @@
 
 .social-title {
   text-align: center;
-
+  color: grey;
   margin: 0px !important;
   padding: 16px;
+}
+
+/** Specific card styling **/
+
+/** Twitter **/
+.twitter-card:hover {
+  border-color: #33CCFF;
+  cursor: pointer;
+}
+
+.twitter-card:hover .social-title {
+  color: #33CCFF;
+}
+
+/** Twitch **/
+.twitch-card:hover {
+  border-color: #6441a5;
+  cursor: pointer;
+}
+
+.twitch-card:hover .social-title {
+  color: #6441a5;
+}
+
+/** Github card **/
+.github-card:hover {
+  border-color: #24292e;
+  cursor: pointer;
+}
+
+.github-card:hover .social-title {
+  color: #24292e;
+}
+
+/** Youtube **/
+.youtube-card:hover {
+  border-color: #c4302b;
+  cursor: pointer;
+}
+
+.youtube-card:hover .social-title {
+  color: #c4302b;
 }
