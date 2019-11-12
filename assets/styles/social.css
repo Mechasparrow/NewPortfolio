@@ -46,13 +46,13 @@
   color: #6441a5;
 }
 
-/** Github card **/
-.github-card:hover {
+/** Github/Email card **/
+.github-card:hover, .email-card:hover {
   border-color: #24292e;
   cursor: pointer;
 }
 
-.github-card:hover .social-title {
+.github-card:hover .social-title, .email-card:hover .social-title {
   color: #24292e;
 }
 
@@ -70,4 +70,9 @@
 #social-marker {
   position: relative;
   bottom: 50px;
+}
+
+/** Links **/
+.social-card-link:hover {
+  text-decoration: none;
 }
