@@ -1,4 +1,8 @@
 /** About section **/
+.about {
+    margin-top: 128px;
+}
+
 .about .content-container {
   border: 5px solid #33CCFF;
   text-align: center;

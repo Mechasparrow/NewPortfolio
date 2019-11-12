@@ -38,3 +38,9 @@
   font-size: 1.75em;
   float:right;
 }
+
+/** Navigation **/
+#projects-marker {
+  position: relative;
+  bottom: 50px;
+}

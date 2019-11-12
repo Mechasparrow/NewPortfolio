@@ -10,3 +10,7 @@
 .nav-item:hover .nav-link {
   color: #33CCFF !important;
 }
+
+.navbar {
+  border-bottom: 8px solid #343A40;
+}

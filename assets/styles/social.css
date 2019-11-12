@@ -65,3 +65,9 @@
 .youtube-card:hover .social-title {
   color: #c4302b;
 }
+
+/** Navigation **/
+#social-marker {
+  position: relative;
+  bottom: 50px;
+}
