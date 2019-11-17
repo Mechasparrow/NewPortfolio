@@ -1,0 +1,49 @@
+/** Styling for the blog **/
+
+.blog-title {
+  padding-top: 32px;
+  font-size: 4em;
+}
+
+/** Link to medium **/
+.medium-link {
+  color: #57AD68;
+  padding-left: 8px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/** Articles **/
+.articles-list {
+  margin-top: 32px;
+}
+
+.article {
+  width: 100%;
+  border: 5px solid #33CCFF;
+  overflow: auto;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.article .article-title {
+  font-size: 2.5em;
+}
+
+.article .article-date {
+  font-size: 2em;
+}
+
+.article .article-excerpt {
+  font-size: 1.25em;
+}
+
+.article-footer {
+  color: grey;
+}
+
+.read-link {
+  color: #33CCFF;
+  cursor: pointer;
+  text-decoration: underline;
+}
