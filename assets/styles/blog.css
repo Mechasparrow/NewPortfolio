@@ -18,7 +18,7 @@
   margin-top: 32px;
 }
 
-.article {
+.article-card {
   width: 100%;
   border: 5px solid #33CCFF;
   overflow: auto;
@@ -26,15 +26,15 @@
   margin-bottom: 32px;
 }
 
-.article .article-title {
+.article-card .article-title {
   font-size: 2.5em;
 }
 
-.article .article-date {
+.article-card .article-date {
   font-size: 2em;
 }
 
-.article .article-excerpt {
+.article-card .article-excerpt {
   font-size: 1.25em;
 }
 

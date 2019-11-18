@@ -1,17 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -70px;
+}
+.footer,
+.push {
+  height: 70px;
+}
+
 /** Footer **/
 .footer {
-  min-height: 100px;
   background-color: black;
 }
 
 .footer-content {
   color:white;
   text-align:center;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 64px;
-
   font-size: 1.25em;
+  padding-top: 16px;
 }
 
 .footer-content p{
