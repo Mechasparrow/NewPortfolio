@@ -1,0 +1,45 @@
+---
+layout: "post"
+title: "August 2018 Devlog 02: Building a Habit App but with RPG elements"
+date: "2018-08-09 22:24"
+tags: Devlog
+categories: log
+crosspost_to_medium: true
+excerpt_separator:  <!--more-->
+---
+
+Yo. It's that bird. Mechasparrow. I've been doing some dev and making some tutorials.
+
+# What have I been coding this week?
+
+Well I'm still kinda building the Scavenger hunt app, but I put that as second priority coding wise. The main application I'm working is called **repeatic**.
+
+Repeatic is a habit task app with RPG elements.
+
+# What does this mean?
+
+It means that as you complete certain tasks or solidify habits, you interact with a sort of game environment in the process. Kinda like [Tamagotchi](https://en.wikipedia.org/wiki/Tamagotchi). You gain XP or lose health depending on how well you complete tasks and stay committed to habits.
+
+# How am I building it?
+
+with JavaScript and React.JS
+
+# Whats the progress so far?
+
+- complete tasks
+- gain xp
+- create tasks
+
+I plan on incorporating some pixel art aesthetics. Bad news... It's going to be a lot of initially bad pixel art :D
+
+That's it so far. The repo is over at [github](https://github.com/Mechasparrow/repeatic)
+
+# Other stuff
+
+I completed another tutorial over on LiveEdu. LiveEdu is an online livestreaming programming education platform. I plan on starting to publish YouTube videos _at some point_.
+
+Backend development has begun on the scavenger hunt application. So I would say maybe another good 70% to go regarding that app.
+
+School starts less then one week from now... Pretty riveting IMO.
+
+-- Michael Navazhylau

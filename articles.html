@@ -11,19 +11,24 @@ layout: default
       </a>
 
       <div class = "articles-list">
+        {% for post in site.posts %}
         <div class = "article-card">
-          <h1 class = "article-title">Title</h1>
-          <h2 class = "article-date">00/00/00</h2>
+          <h1 class = "article-title">{{post.title}}</h1>
+          <h2 class = "article-date">{{ post.date | date_to_string }}</h2>
 
           <p class = "article-excerpt">
-              Posset: terris, principio coeperunt. Triones mundo terris, erectos nix. Aetas vindice magni. Manebat umor, mundo opifex utque. Diffundi supplex, iners aeris sanctius evolvit. Nullus minantia. Illis altae, terram iussit fixo passim homini frigida. Tuba in, volucres montibus coercuit frigida diremit oppida peregrinum unda descenderat. Triones bene ante, sinistra natura.
+            {{ post.content | strip_html | truncatewords: 100 }}
           </p>
 
           <div class = "article-footer">
             <div>
-              <h4 style = "float:left;" class = "category-link">Philosophy</h4>
+              <h4 style = "float:left;" class = "category-link">
+                {% for category in post.categories %}
+                  <span>{{category}}</span>
+                {% endfor %}
+              </h4>
 
-              <a href = "/view-article">
+              <a href = "{{post.url}}">
                 <h4 style = "float:right;" class = "read-link">
                   Read
                 </h4>
@@ -31,21 +36,8 @@ layout: default
             </div>
           </div>
         </div>
-        <div class = "article-card">
-          <h1 class = "article-title">Title</h1>
-          <h2 class = "article-date">00/00/00</h2>
 
-          <p class = "article-excerpt">
-              Posset: terris, principio coeperunt. Triones mundo terris, erectos nix. Aetas vindice magni. Manebat umor, mundo opifex utque. Diffundi supplex, iners aeris sanctius evolvit. Nullus minantia. Illis altae, terram iussit fixo passim homini frigida. Tuba in, volucres montibus coercuit frigida diremit oppida peregrinum unda descenderat. Triones bene ante, sinistra natura.
-          </p>
-
-          <div class = "article-footer">
-            <div>
-              <h4 style = "float:left;" class = "category-link">Philosophy</h4>
-              <h4 style = "float:right;" class = "read-link">Read</h4>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
 
     </div>
