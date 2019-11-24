@@ -40,7 +40,7 @@ layout: default
       <h1 class = "article-title">{{post.title}}</h1>
       <h2 class = "article-date">{{ post.date | date_to_string }}</h2>
 
-      <p class = "article-excerpt">
+      <p class = "d-none d-md-block article-excerpt">
         {{ post.content | strip_html | truncatewords: 100 }}
       </p>
 
