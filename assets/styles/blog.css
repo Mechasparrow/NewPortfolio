@@ -47,3 +47,9 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+/** Pagination system **/
+.pagination .page_number {
+  padding-left: 8px;
+  padding-right: 8px;
+}
