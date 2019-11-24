@@ -41,6 +41,12 @@ layout: default
   </div>
 
   <!-- Pagination links -->
+  <div class = "pagination page_number">
+    <h4 class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </h4>
+  </div>
+
   <div class="pagination container-fluid">
       {% if paginator.previous_page %}
         <div class = "previous">
@@ -50,12 +56,6 @@ layout: default
           </a>
         </div>
       {% endif %}
-
-      <div class = "page_number">
-        <h2 class="page_number ">
-          Page: {{ paginator.page }} of {{ paginator.total_pages }}
-        </h2>
-      </div>
 
       {% if paginator.next_page %}
         <div class = "next">

@@ -53,3 +53,7 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
+.pagination div {
+  margin: 8px;
+}
