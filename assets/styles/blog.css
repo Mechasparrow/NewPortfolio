@@ -57,3 +57,24 @@
 .pagination div {
   margin: 8px;
 }
+
+/** Search **/
+.search-stuff {
+  margin-top: 32px;
+}
+
+#search-input {
+  margin-bottom: 16px;
+}
+
+#results-container div {
+  border: 5px solid #6666CC;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+#results-container a {
+  color: #6666CC;
+  font-size: 1.5em;
+  text-decoration: underline;
+}

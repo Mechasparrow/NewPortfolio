@@ -10,6 +10,30 @@ layout: default
     </h2>
   </a>
 
+  <div class = "search-stuff">
+    <h2>Search Blog</h2>
+    <!-- HTML elements for search -->
+    <input class = "form-control" type="text" id="search-input" placeholder="Search blog posts..">
+    <div id="results-container"></div>
+
+
+    <!-- or without installing anything -->
+    <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+
+    <script>
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<div><a href="{url}?query={query}" title="{desc}">{title}</a></div>',
+        noResultsText: 'No results found',
+        limit: 5,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
+  </div>
+
   <div class = "articles-list">
     {% for post in paginator.posts %}
     <div class = "article-card">
