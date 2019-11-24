@@ -5,6 +5,12 @@
   padding-bottom: 32px;
 }
 
+.article .writing img {
+  border: 1px solid red;
+  width: 100%;
+  margin: auto;
+}
+
 .article .writing {
   margin-top: 32px;
   font-size: 1.5em;
@@ -24,4 +30,9 @@
   color: #6666CC;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/** Weird overflow fix **/
+td {
+  display: block;
 }
