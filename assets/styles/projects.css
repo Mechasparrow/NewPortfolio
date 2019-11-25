@@ -10,11 +10,20 @@
   padding: 16px;
 
   /** Width fix **/
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+
+  /** Vertical spacing **/
+  margin-bottom: 16px;
 }
 
 /** Project Card **/
+.project-card-wrapper {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 16px;
+}
+
 .project-cards {
   margin-left: 0px;
   margin-right: 0px;
@@ -22,7 +31,7 @@
 
 .project-card {
   border: 5px solid grey;
-  padding: 16px;
+  padding: 32px;
   padding-bottom: 8px;
   overflow: auto;
 }
