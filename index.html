@@ -44,42 +44,23 @@ layout: default
       <h1 class = "title">Projects</h1>
 
       <div class = "row project-cards">
+
+        {% for i in (1..3) %}
         <div class = "project-card-wrapper col-md-4">
           <div class = "project-card">
 
             <div class = "dummy-image d-block mx-auto">
 
             </div>
-            <div class = "card-prompt">
-              View
-            </div>
+
+              <div class = "card-prompt">
+                <a href = "/project">View</a>
+              </div>
+
           </div>
 
         </div>
-        <div class = "project-card-wrapper col-md-4">
-          <div class = "project-card">
-
-            <div class = "dummy-image d-block mx-auto">
-
-            </div>
-            <div class = "card-prompt">
-              View
-            </div>
-          </div>
-
-        </div>
-        <div class = "project-card-wrapper col-md-4">
-          <div class = "project-card">
-
-            <div class = "dummy-image d-block mx-auto">
-
-            </div>
-            <div class = "card-prompt">
-              View
-            </div>
-          </div>
-
-        </div>
+        {% endfor %}
 
       </div>
 

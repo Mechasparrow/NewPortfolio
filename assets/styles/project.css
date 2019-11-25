@@ -1,0 +1,30 @@
+.project-page .title {
+  padding-top: 16px;
+}
+
+.project-page .project-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/** Dummy Image **/
+.project-page .project-image {
+  padding: 16px;
+  background-color: lightgrey;
+  height: 400px;
+}
+
+.project-page .writing {
+  font-size: 1.5em;
+  min-height: 400px;
+  text-align: left;
+}
+
+.project-page .links {
+  margin-top: 8px;
+  font-size: 1.5em;
+}
+
+.project-page .links a {
+  color: #6666CC;
+}

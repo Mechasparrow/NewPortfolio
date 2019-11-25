@@ -48,6 +48,12 @@
   float:right;
 }
 
+.project-card .card-prompt a{
+  color: #6666CC;
+  text-decoration: underline;
+}
+
+
 /** Navigation **/
 #projects-marker {
   position: relative;
