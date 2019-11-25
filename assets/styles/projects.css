@@ -4,7 +4,7 @@
   margin-top: 64px;
 }
 
-.projects .content-container .title {
+.projects .content-container .title, .projects .view-projects {
   border: 5px solid #6666CC;
   text-align: center;
   padding: 16px;
@@ -15,6 +15,31 @@
 
   /** Vertical spacing **/
   margin-bottom: 16px;
+}
+
+.projects  .view-projects {
+  color: black;
+  text-decoration: none;
+}
+
+.projects  .view-projects {
+  border: 5px solid grey;
+  color: grey;
+}
+
+.projects .view-projects h1{
+  margin: 0px;
+}
+
+.projects .view-projects-link {
+  text-decoration: none;
+}
+
+.projects .view-projects:hover {
+  border: 5px solid #6666CC;
+  color: #6666CC;
+  text-decoration: none !important;
+  cursor: pointer;
 }
 
 /** Project Card **/

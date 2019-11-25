@@ -8,7 +8,7 @@ layout: default
   <div class = "row projects-grid">
       {% for project in site.projects %}
         <div class = "project-card-wrapper col-md-4">
-          <div class = "project-card">
+          <div class = "project-card h-100">
 
             <h2 class = "project-title">{{project.title}}</h2>
 
@@ -16,6 +16,7 @@ layout: default
               <img src = "{{project.image}}" class = "img-top embed-responsive-item d-block mx-auto img-fluid"/>
             </div>
 
+            
             <div class = "project-desc">
               <p>{{project.excerpt}}</p>
             </div>

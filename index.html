@@ -44,25 +44,36 @@ layout: default
       <h1 class = "title">Projects</h1>
 
       <div class = "row project-cards">
+        {% for project in site.projects %}
+          <div class = "project-card-wrapper col-md-4">
+            <div class = "project-card h-100">
 
-        {% for i in (1..3) %}
-        <div class = "project-card-wrapper col-md-4">
-          <div class = "project-card">
+              <h2 class = "project-title">{{project.title}}</h2>
 
-            <div class = "dummy-image d-block mx-auto">
+              <div class = "project-image embed-responsive embed-responsive-21by9">
+                <img src = "{{project.image}}" class = "img-top embed-responsive-item d-block mx-auto img-fluid"/>
+              </div>
+
+              <div class = "project-desc">
+                <p>{{project.excerpt}}</p>
+              </div>
+
+              <div class = "card-prompt">
+                <a href = "{{project.url}}">View</a>
+              </div>
 
             </div>
 
-              <div class = "card-prompt">
-                <a href = "/project">View</a>
-              </div>
-
           </div>
-
-        </div>
         {% endfor %}
 
       </div>
+
+      <a class = "view-projects-link" href = "/list_projects">
+        <div class = "view-projects">
+          <h1>View Projects</h1>
+        </div>
+      </a>
 
     </div>
   </div>
