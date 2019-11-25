@@ -53,6 +53,16 @@
   text-decoration: underline;
 }
 
+.project-card .project-title {
+  margin-bottom: 32px;
+}
+
+.project-card .project-desc {
+  margin-top: 16px;
+  font-size: 1.5em;
+  min-height: 100px;
+}
+
 
 /** Navigation **/
 #projects-marker {

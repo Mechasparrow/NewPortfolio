@@ -1,0 +1,14 @@
+/** Styling for projects list **/
+.projects-list .title {
+  padding-top: 16px;
+  padding-left: 8px;
+  margin-bottom: 16px;
+}
+
+.projects-grid {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.img-top {
+  object-fit: cover;
+}
