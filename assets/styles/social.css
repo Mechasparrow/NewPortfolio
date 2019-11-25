@@ -11,6 +11,7 @@
   border: 5px solid #33CCFF;
   text-align: center;
   padding: 16px;
+  margin-bottom: 16px;
 }
 
 .social-card {
@@ -75,4 +76,9 @@
 /** Links **/
 .social-card-link:hover {
   text-decoration: none;
+}
+
+/** Spacing **/
+.social-card {
+  margin-bottom: 16px;
 }
