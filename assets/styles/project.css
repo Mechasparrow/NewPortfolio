@@ -2,12 +2,16 @@
   padding-top: 16px;
 }
 
+.project-page .back-link {
+  margin-left: 16px;
+}
+
 .project-page .project-row {
   margin-left: 0;
   margin-right: 0;
 }
 
-/** Dummy Image **/
+/** Project Image **/
 .project-page .project-image {
   padding: 16px;
   margin-top: 32px;
@@ -16,16 +20,28 @@
 
 .project-page .writing {
   font-size: 1.5em;
-  min-height: 400px;
   text-align: left;
 }
 
 .project-page .links {
   margin-top: 8px;
   font-size: 1.5em;
-  text-align: center;
+  margin-bottom: 32px;
 }
 
-.project-page a {
+.link-wrapper {
+  border: 5px solid grey;
+  text-align:center;
+  color: grey;
+  padding: 8px;
+}
+
+.link-wrapper:hover{
+  border: 5px solid #6666CC;
   color: #6666CC;
+  cursor:pointer;
+}
+
+.links a {
+  text-decoration: none;
 }

@@ -3,13 +3,8 @@ layout: project
 title: "Planeta"
 excerpt: "A 2D Space Puzzle Game"
 image: "/assets/images/planeta.png"
+view_url: https://mechasparrow.itch.io/planeta
 ---
-
-<iframe src="https://itch.io/embed/382113" height="167" width="552" frameborder="0"></iframe>
-
-<!-- Buttons -->
-
-[View Project](https://mechasparrow.itch.io/planeta){: .btn .btn--info}
 
 <!-- Description -->
 

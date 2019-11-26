@@ -4,15 +4,15 @@ layout: default
 
 <div class = "content container-fluid project-page">
 
-  <h2>
+  <h2 class = "back-link">
     <a href = "/list_projects/">Go back</a>
   </h2>
 
   <div class = "row project-row">
 
     <div class = "col-md-6 project-image">
-      <div class = "text-center">
-        <img class = "img-fluid" src = "{{page.image}}" />
+      <div class = "embed-responsive embed-responsive-21by9 text-center">
+        <img class = "embed-responsive-item img-top img-fluid" src = "{{page.image}}" />
       </div>
     </div>
 
@@ -27,12 +27,25 @@ layout: default
 
   </div>
 
-  {% if page.code_url or page.view_url %}
-    <div class = "links">
-      <a id = "link-code" href = "{{page.code_url}}">Code</a>
-      |
-      <a id = "link-view" href = "{{page.view_url}}">View</a>
+  <div class = "row">
+    <div class = "links col-md-4 mx-auto row">
+      {% if page.code_url %}
+        <a class = "col" id = "link-code" href = "{{page.code_url}}">
+          <div class = "link-wrapper w-100">
+            Code
+          </div>
+        </a>
+      {% endif %}
+
+      {% if page.view_url %}
+
+        <a class = "col" id = "link-view" href = "{{page.view_url}}">
+          <div class = "link-wrapper w-100">
+            View
+          </div>
+        </a>
+      {% endif %}
     </div>
-  {% endif %}
+  </div>
 
 </div>

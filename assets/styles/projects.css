@@ -71,6 +71,9 @@
   margin-top: 16px;
   font-size: 1.75em;
   float:right;
+  position: absolute;
+  bottom: 24px;
+  right:32px;
 }
 
 .project-card .card-prompt a{
@@ -86,6 +89,7 @@
   margin-top: 16px;
   font-size: 1.5em;
   min-height: 100px;
+  padding-bottom: 32px;
 }
 
 
